@@ -15,19 +15,19 @@
 </head>
 
 <body>
-    <header>
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </header>
+  <nav id="navbar-example2" class="navbar navbar-light px-3 justify-content-center">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#scrollspyPortfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#scrollspyAbout">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#scrollspyContact">Contact</a>
+      </li>
+    </ul>
+  </nav>
     <section class="container">
         <div class="mt-5 p-5 text-center">
             <h1>Hey there. I’m Alex.</h1>
@@ -44,7 +44,7 @@
             </ul>
         </div>
     </section>
-    <section class=" m-5 p-5">
+    <section class="m-5 p-5" id="scrollspyPortfolio" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
         <h1 class="text-center m-5">
             My Recent Works
         </h1>
@@ -144,7 +144,7 @@
           </div>
     </section>
 
-    <section class="text-center m-5" >
+    <section class="text-center m-5" id="scrollspyAbout" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
       <div>
       <h1 class="text-center m-5">
         About Me
@@ -200,7 +200,7 @@
       </div>
     </div>  
     </section>
-    <section class="m-5">
+    <section class="m-5" id="scrollspyContact" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
       <div class="row row-cols-1 row-cols-md-2 m-5">
           <div class="col d-flex align-items-center">
               <h2>I'm always interested in hearing about new projects, 
