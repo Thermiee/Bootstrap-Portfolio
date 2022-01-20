@@ -13,3 +13,7 @@
 ul {
   list-style-type: none;
 }
+
+ #floatingTextarea2 {
+  height: 100px;
+}
