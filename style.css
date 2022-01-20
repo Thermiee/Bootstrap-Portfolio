@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("images/Header-llustration-desktop@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#floatingTextarea2 {
+  height: 100px;
+}
